@@ -76,7 +76,7 @@
 }
 
 .form {
-    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+    color: #EBEAED;
     font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -84,9 +84,13 @@
     line-height: 22px;
     border-radius: 100px;
     border: 2px solid #EBEAED;
+    padding-left: 18px;
 
 }
 
+input::placeholder {
+    color: #A1A1B0;
+}
 
 
 .d-flex {
@@ -127,6 +131,16 @@
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
+
+}
+
+.text-1 {
+    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 
 }
 
@@ -189,6 +203,11 @@
 .margin-top-39 {
     margin-top: 39px;
 }
-.gap{
+
+.gap {
     gap: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }
